@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+               <h1 class="text-white text-center">Adivina la posición del número</h1> 
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="container_buttons">
+                <button class="opciones" id="0" onclick="validar(0)"></button>
+                <button class="opciones" id="1" onclick="validar(1)"></button>
+                <button class="opciones" id="2" onclick="validar(2)"></button>
+                <button class="opciones" id="3" onclick="validar(3)"></button>
+
+                <button class="opciones" id="4" onclick="validar(4)"></button>
+                <button class="opciones" id="5" onclick="validar(5)"></button>
+                <button class="opciones" id="6" onclick="validar(6)"></button>
+                <button class="opciones" id="7" onclick="validar(7)"></button>
+
+                <button class="opciones" id="8" onclick="validar(8)"></button>
+                <button class="opciones" id="9" onclick="validar(9)"></button>
+                <button class="opciones" id="10" onclick="validar(10)"></button>
+                <button class="opciones" id="11" onclick="validar(11)"></button>
+        </div>
+        <div class="row mt-4">
+            <div class="col d-flex justify-content-center gap-5">
+                <p id="aciertos" class="text-white fs-4">Aciertos: 0</p>
+                <p id="movimientos" class="text-white fs-4">Movimientos: 0</p>
+            </div>
+        </div>
+    </div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/codigo.js"></script>
+</body>
+</html>
